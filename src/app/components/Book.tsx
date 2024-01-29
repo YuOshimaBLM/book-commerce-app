@@ -16,6 +16,7 @@ const Book = ({ book }: any) => {
           alt="book.image"
           src={book.thumbnail}
           className="rounded-t-md"
+          style={{ objectFit: "cover", width: "100%", height: "100%" }}
         />
         <div className="px-4 py-4 bg-slate-100 rounded-b-md">
           <h2 className="text-lg font-semibold">{book.title}</h2>
