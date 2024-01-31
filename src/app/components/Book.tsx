@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+//bookPropsの型指定を後に実装
 const Book = ({ book }: any) => {
   return (
     <div className="flex flex-col items-center m-4">
